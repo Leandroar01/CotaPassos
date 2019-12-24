@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contagem por Passos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Digite os dados abaixo...</h1>
+    </header>
+    <section>
+        <div>
+           <label for="start" id="inicio">Inicio:</label> 
+           <input type="number" name="startNumber" class="input" id="start"><br>
+           <label for="finish" id="fim">Fim: </label>
+           <input type="number" name='finishNumber' class='input' id="finish"><br>
+           <label for="passos">Passo:</label>
+           <input type="number" name="passos" class='input' id="passos">
+           </br><input type="button" value="Calcular" onclick="contar()">
+        </div>
+        <div id="cont">
+           <p> Contagem. </p> 
+        </div>
+    
+    </section>
+    
+    <footer>
+        <p>&copy;Curso Em Video</p>
+    
+    </footer>    
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
